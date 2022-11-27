@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("../fotos/fondo.jpg");
+    background-size: 100%;
+}
+header{
+    padding: 30px;
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+div{
+    padding: 30px;
+}
+.principal{
+    height: 82vh;
+}
+.primeraParte{
+    height: 265px;
+}
+.segundaParte{
+    height: 300px;
+}
+img{
+    height: calc(50vh - 200px);
+    margin-left: 5.5%;
+    margin-right: 5%;
+    width: 9%;
+    border-radius: 20px 20px 20px 20px;
+}
+.dietaTam{
+    height: calc(50vh - 150px);
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 12%;
+    border-radius: 20px 20px 20px 20px;
+}
+.centro{
+    height: calc(50vh - 150px);
+    margin-left: calc(50vw - 20%);
+    width: 30%;
+    border-radius: 20px 20px 20px 20px;
+}
+.tamCalist{
+    height: 40vh;
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 20%;
+    border-radius: 20px 20px 20px 20px;
+}
+.tamDietVeg{
+    height: 80vh;
+    margin-left: 9%;
+    margin-right: 9%;
+    width: 80%;
+    border-radius: 20px 20px 20px 20px;
+}
+.tamDiet{
+    height: 20vh;
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 35%;
+    border-radius: 20px 20px 20px 20px;
+}
+.tamDietHipo{
+    height: 60vh;
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 35%;
+    border-radius: 20px 20px 20px 20px;
+}
+.tamDietHiper{
+    height: 35vh;
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 35%;
+    border-radius: 20px 20px 20px 20px;
+}
+.parrafo{
+    margin-top: 5%;
+}
+p{
+    font-size: 20px;
+    color: whitesmoke;
+}
+.cerrarSesion{
+    width: 20%;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: calc(50vw - 15%);
+}
+.cerrarSesion:hover{
+    background-color: antiquewhite;
+}
+footer{
+    border: 1px solid;
+    height: 150px;
+    background-color: bisque;
+}
+.tamImg{
+    margin-left:7vw;
+    float: left;
+    width: 250px;
+    height: 80px;
+}
