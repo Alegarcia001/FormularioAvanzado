@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/primForm.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="primParte">
+        <table>
+            <h1>FORMULARIO</h1>
+            <h4>Rellena el siguiente formulario:</h4>
+            <tr>
+                <td>
+                    <form class="form">
+                        <input type="text" id="nombre" class="nombre" placeholder=" ">
+                        <label class="label-nom">
+                            <span class="textoNod">Nombre:</span>
+                        </label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td><br>
+                    <form class="form">
+                        <input type="text" id="apellidos" class="nombre" placeholder=" ">
+                        <label class="label-nom">
+                            <span class="textoNod">Apellidos:</span>
+                        </label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <td><br>
+                    <form class="form">
+                        <input type="text" id="dni" class="nombre" placeholder=" ">
+                        <label class="label-nom">
+                            <span class="textoNod">DNI:</span>
+                        </label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <td><br>
+                    <form class="form">
+                        <input type="date" id="fn" class="nombre" placeholder=" ">
+                        <label class="label-nom">
+                            <span class="textoNod">Fecha nacimiento:</span>
+                        </label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <td><br>
+                    <form class="form">
+                        <input type="text" id="telefono" class="nombre" placeholder=" ">
+                        <label class="label-nom">
+                            <span class="textoNod">Telefono:</span>
+                        </label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td><br>
+                    <form class="form">
+                        <input type="text" id="email" class="nombre" placeholder=" ">
+                        <label class="label-nom">
+                            <span class="textoNod">Email:</span>
+                        </label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td><br>
+                    <form class="form">
+                        <input type="text" id="contr" class="nombre" placeholder=" ">
+                        <label class="label-nom">
+                            <span class="textoNod">Contraseña:</span>
+                        </label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <td><br>
+                    <form class="form">
+                        <input type="text" id="contrX2" class="nombre" placeholder=" ">
+                        <label class="label-nom">
+                            <span class="textoNod">Vuelve a escribir la contraseña:</span>
+                        </label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td><br><br>
+                    <input type="submit" id="btn" class="btn" value="Continuar">
+                </td>
+            </tr>
+        </table><br>
+    </div>
+    <div id="segunParte" class="desaparece">
+        <table>
+            <h1>FORMULARIO</h1>
+            <h4>A continuacion debes escoger entre una serie de paquetes para registrarte en nuestra pagina:</h4>
+            <tr>
+                <td>
+                    <form class="form">
+                        <p><input type="radio" id="primerPaq" name="primerPaq" value="20"> 1 mes: 20€</p>
+                        <p><input type="radio" id="primerPaq" name="primerPaq" value="50"> 3 meses: 50€</p>
+                        <p><input type="radio" id="primerPaq" name="primerPaq" value="95"> 6 meses: 95€</p>
+                        <p><input type="radio" id="primerPaq" name="primerPaq" value="170"> 1 año: 170€</p>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Una vez que elijas el paquete se añadira al registro, una vez elgido haz clic en siguiente</h4>
+                </td>
+            </tr>
+            <tr>
+                <td><br><br><br><br><br><br><br><br><br><br><br>
+                    <input type="submit" id="btn2" class="btn2" value="Continuar">
+                </td>
+            </tr>
+        </table><br>
+    </div>
+    <div id="terceraParte" class="desaparece">
+        <table>
+            <h1>FORMULARIO</h1>
+            <h4>A continuacion debes añadir entre una serie de actividades para registrarte en nuestra pagina:</h4>
+            <tr>
+                <td>
+                    <form class="form">
+                        <p><input type="checkbox" id="segundoPaq" name="Spinning"> Spinning</p>
+                        <p><input type="checkbox" id="segundoPaq" name="Crossfit"> Crossfit</p>
+                        <p><input type="checkbox" id="segundoPaq" name="TRX"> TRX</p>
+                        <p><input type="checkbox" id="segundoPaq" name="Calistenia"> Calistenia</p>
+                        <p><input type="checkbox" id="segundoPaq" name="HIT"> HIT</p>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Una vez que añadas(es opcional) puedes llegar a la ultima parte del formulario</h4>
+                </td>
+            </tr>
+            <tr>
+                <td><br><br><br><br><br><br><br><br><br>
+                    <input type="submit" id="btn3" class="btn2" value="Continuar">
+                </td>
+            </tr>
+        </table><br>
+    </div>
+    <div id="ultParte" class="desaparece">
+        <table>
+            <h1>FORMULARIO</h1>
+            <h4>A continuacion debes añadir entre una serie de actividades para registrarte en nuestra pagina:</h4>
+            <tr>
+                <td>
+                    <form class="form">
+                        <input type="text" id="iban" class="nombre" placeholder=" ">
+                        <label class="label-nom">
+                            <span class="textoNod">Iban:</span>
+                        </label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td><br>
+                    <form class="form">
+                        <input type="date" id="fc" class="nombre" placeholder=" ">
+                        <label class="label-nom">
+                            <span class="textoNod">Fecha caducidad:</span>
+                        </label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <td><br>
+                    <form class="form">
+                        <input type="text" id="ccv" class="nombre" placeholder=" ">
+                        <label class="label-nom">
+                            <span class="textoNod">CCV:</span>
+                        </label>
+                    </form>
+                </td>
+            <tr>
+                <td><br>
+                    <h4>En el fecha caducidad, en el dia puedes introducir siempre el 1, ya que es suficiente con el mes
+                        y el año</h4>
+                </td>
+            </tr>
+            </tr>
+            <td><br><br><br><br><br><br><br><br><br><br>
+                <input type="submit" id="btn4" class="btn2" value="Terminar">
+            </td>
+            </tr>
+        </table><br>
+    </div><br><br>
+    <div id="mensaje" class="desaparece">plplp</div>
+    <script src="../js/primForm.js"></script>
+    <script src="../js/validaciones.js"></script>
+</body>
+
+</html>
